@@ -1,6 +1,6 @@
 package a06numberofgoodpairs1512
 
-func numIdenticalPairs1(nums []int) int {
+func numIdenticalPairs2(nums []int) int {
 	pairsCandidate := make(map[int]int)
 	for i := 0; i < len(nums); i++ {
 		pairsCandidate[nums[i]]++
