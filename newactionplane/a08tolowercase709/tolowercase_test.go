@@ -16,7 +16,7 @@ func TestToLowerCase(t *testing.T) {
 	}
 
 	for _, test := range tests {
-		result := toLowerCase1(test.input)
+		result := toLowerCase2(test.input)
 		if result != test.expected {
 			t.Errorf("toLowerCase(%q) = %q; want %q", test.input, result, test.expected)
 		}
