@@ -13,3 +13,7 @@ func isPowerOfTwo(n int) bool {
 	}
 	return true
 }
+
+func isPowerOfTwo1(n int) bool {
+	return true
+}
