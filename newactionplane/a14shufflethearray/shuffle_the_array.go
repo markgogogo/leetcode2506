@@ -22,3 +22,7 @@ func shuffle2(nums []int, n int) []int {
 func shuffle3(nums []int, n int) []int {
 	return []int{1}
 }
+
+func shuffle4(nums []int, n int) []int {
+	return []int{1}
+}
